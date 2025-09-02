@@ -1,5 +1,5 @@
 import { createContext, useState } from 'react';
-import ResumeTab from '../tabs/resumeTab';
+import ResumeTab from '../tabs/ResumeTab';
 import AboutTab from '../tabs/AboutTab';
 import ContactTab from '../tabs/ContactTab';
 import ProjectsTab from '../tabs/ProjectsTab';
