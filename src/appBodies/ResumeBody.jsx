@@ -9,22 +9,22 @@ const ResumeBody = () => {
                 <div className='role'>Full-Stack Developer</div>
                 <div className='contact'>
                     <div className='location'>
-                        <img src="src\assets\location1.svg" width='20px'/>
+                        <img src="/location1.svg" width='20px'/>
                         <p>Hyderabad,Telangana,India</p>
                     </div>
                     <div className='mail'>
-                        <img src="src\assets\mail1.svg" width='20px'/>
+                        <img src="/mail1.svg" width='20px'/>
                         <p>manojcherukuri202@gmail.com</p>
                     </div>
                     <div className='phoneNo'>
-                        <img src="src\assets\phone1.svg" width='20px'/>
+                        <img src="/phone1.svg" width='20px'/>
                         <p>8247604907</p>
                     </div>
                 </div>
             </div>
             <div className='download'>
                 <button className='download-btn'>
-                    <img src="src\assets\download.png"/>
+                    <img src="/download.png"/>
                     Download
                 </button>
             </div>
@@ -54,12 +54,12 @@ const ResumeBody = () => {
                             Azure Developer Associate(Intern)
                         </div>
                         <div className='comp'>
-                            <img src="src\assets\building.svg" />
+                            <img src="/building.svg" />
                             SITER Academy Norway
                         </div>
                     </div>
                     <div className='duration'>
-                        <img src="src\assets\calendar.svg"/>
+                        <img src="/calendar.svg"/>
                         Jul,2025-Present
                     </div>
                 </div>
@@ -86,11 +86,11 @@ const ResumeBody = () => {
                         Bachelor of Technology in Computer Science and Engineering
                     </div>
                     <div className='institution'>
-                        <img src="src\assets\building.svg"/>
+                        <img src="/building.svg"/>
                         Vel Tech Rangarajan Dr. Sagunthala R&D Institute, Avadi, Chennai, Tamilnadu
                     </div>
                     <div className='duration'>
-                        <img src="src\assets\calendar.svg"/>
+                        <img src="/calendar.svg"/>
                         2025-2027
                     </div>
                 </div>
@@ -99,11 +99,11 @@ const ResumeBody = () => {
                         Intermediate in MPC
                     </div>
                     <div className='institution'>
-                        <img src="src\assets\building.svg"/>
+                        <img src="/building.svg"/>
                         Resonance Eduventures, KPHB, Hyderabad, Telangana
                     </div>
                     <div className='duration'>
-                        <img src="src\assets\calendar.svg"/>
+                        <img src="/calendar.svg"/>
                         2021-2023
                     </div>
                 </div>
@@ -112,11 +112,11 @@ const ResumeBody = () => {
                         Schooling in Secondary Education
                     </div>
                     <div className='institution'>
-                        <img src="src\assets\building.svg"/>
+                        <img src="/building.svg"/>
                         Vikas The Concept School, Bachupally, Hyderabad, Telangana
                     </div>
                     <div className='duration'>
-                        <img src="src\assets\calendar.svg"/>
+                        <img src="/calendar.svg"/>
                         Graduated in 2021
                     </div>
                 </div>

@@ -4,7 +4,7 @@ const Contact = () => {
   const {whtTab,setWhtTab}= useContext(TabContext);
   return (
     <div className='app'>
-      <img onClick={()=>{setWhtTab([...whtTab,'contact'])}} src="src\assets\mail.svg" alt="" />
+      <img onClick={()=>{setWhtTab([...whtTab,'contact'])}} src="/mail.svg"/>
       Contact
     </div>
   )

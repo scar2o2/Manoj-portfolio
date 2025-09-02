@@ -26,7 +26,7 @@ const ResumeTab = ({tabName}) => {
       minTask.id = "ResumeTask"; 
 
       const img = document.createElement('img');
-      img.src = "src/assets/file.svg";
+      img.src = "/file.svg";
       img.width = 12;
 
       minTask.appendChild(img);
@@ -111,17 +111,17 @@ const ResumeTab = ({tabName}) => {
     <div className="resumeWindow window" onMouseDown={() => bringToFront(tabName)} style={{ top: `${offset.top}px`, left: `${offset.left}px`, zIndex: zOrders[tabName] || 1 }}>
       <div className="header" onMouseDown={handleDrag} style={{ cursor: "grab" }}>
         <p className="tabTitle">
-          <img src="src/assets/file.svg" />
+          <img src="/file.svg" />
           Resume
         </p>
         <div className="tabTools">
-          <img src="src/assets/minimize.svg" onClick={minimizeTab} />
+          <img src="/minimize.svg" onClick={minimizeTab} />
           {maxi ? (
-            <img src="src/assets/maxiView.svg" onClick={maxiView} />
+            <img src="/maxiView.svg" onClick={maxiView} />
           ) : (
-            <img src="src/assets/miniView.svg" onClick={miniView} />
+            <img src="/miniView.svg" onClick={miniView} />
           )}
-          <img src="src/assets/cross.svg" onClick={closeTab} />
+          <img src="/cross.svg" onClick={closeTab} />
         </div>
       </div>
       <ResumeBody/>

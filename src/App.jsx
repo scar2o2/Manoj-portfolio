@@ -24,7 +24,7 @@ const App = () => {
     updateClock();
     const interval = setInterval(updateClock, 1000);
 
-    return () => clearInterval(interval); // cleanup when component unmounts
+    return () => clearInterval(interval); 
   }, []);
 
   return (
@@ -40,12 +40,12 @@ const App = () => {
       <div className='footer'>
         <div className="taskbar">
           <div className="taskIcon">
-            <img className="taskIconImg" src="src/assets/pc.svg" alt="pc icon" />
+            <img className="taskIconImg" src="/pc.svg" alt="pc icon" />
           </div>
         </div>
         <div id="clock">
             <div className='time'>
-              <img src="src\assets\clock.svg" />
+              <img src="/clock.svg" />
               {time}
             </div>
           <div>{presentDate}</div>

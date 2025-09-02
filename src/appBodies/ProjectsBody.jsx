@@ -28,14 +28,14 @@ const ProjectsBody = () => {
             <div className="code-buttons">
                 <a href="https://github.com/scar2o2/reco" target='_blank'>
                     <button className='git-btn'>
-                        <img src="src\assets\github.png"/>
+                        <img src="/github.png"/>
                         Code
                     </button>
                 </a>
                 <a href="https://reco-hit6.onrender.com" target='_blank'>
                     
                     <button className='live-btn'>
-                        <img src="src\assets\open.png"/>
+                        <img src="/open.png"/>
                         Live Demo
                     </button>
                 </a>
@@ -59,9 +59,9 @@ const ProjectsBody = () => {
                 <div className="tech">JavaScript</div>
             </div>
             <div className="code-buttons">
-                <a href="">
+                <a href="https://manoj-portfolio-gules.vercel.app/" target='_blank'>
                     <button className='git-btn'>
-                        <img src="src\assets\github.png"/>
+                        <img src="/github.png"/>
                         Code
                     </button>
                 </a>

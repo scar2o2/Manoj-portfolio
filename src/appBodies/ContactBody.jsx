@@ -15,7 +15,7 @@ const ContactBody = () => {
                 <h2>Contact Information</h2>
                 <div className="info">
                     <a href={mailTo}>
-                      <img src="src\assets\mail.svg"/>
+                      <img src="/mail.svg"/>
                       <div>
                         <h4>Email</h4>
                         <p>manojcherukuri202@gmail.com</p>
@@ -23,7 +23,7 @@ const ContactBody = () => {
                     </a>
                 </div>
                 <div className="info">
-                    <img src="src\assets\phone.svg"/>
+                    <img src="/phone.svg"/>
                     <div>
                         <h4>Phone</h4>
                         <p>8247604907</p>
@@ -39,7 +39,7 @@ const ContactBody = () => {
                   </a>
                 </div>
                 <div className="info">
-                    <img src="src\assets\location.svg"/>
+                    <img src="/location.svg"/>
                     <div>
                         <h4>Location</h4>
                         <p>Hyderabad,Telangana,India</p>

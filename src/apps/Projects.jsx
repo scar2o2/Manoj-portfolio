@@ -4,7 +4,7 @@ const Projects = () => {
   const {whtTab,setWhtTab}= useContext(TabContext);
   return (
     <div className='app'>
-      <img onClick={()=>{setWhtTab([...whtTab,'projects'])}} src="src\assets\folder.svg" alt="" />
+      <img onClick={()=>{setWhtTab([...whtTab,'projects'])}} src="/folder.svg"/>
       Projects
     </div>
   )

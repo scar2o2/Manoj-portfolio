@@ -5,7 +5,7 @@ import ContactTab from '../tabs/ContactTab';
 import ProjectsTab from '../tabs/ProjectsTab';
 
 
-export const TabContext = createContext(); // ✅ export it
+export const TabContext = createContext();
 
 const Tab = ({ children }) => {
   const [whtTab, setWhtTab] = useState([]);
