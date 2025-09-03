@@ -32,7 +32,7 @@ const ProjectsBody = () => {
                         Code
                     </button>
                 </a>
-                <a href="https://reco-hit6.onrender.com" target='_blank'>
+                <a href="https://crop-recommender-75ou.onrender.com" target='_blank'>
                     
                     <button className='live-btn'>
                         <img src="/open.png"/>
