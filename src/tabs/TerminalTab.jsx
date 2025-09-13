@@ -111,7 +111,7 @@ const TerminalTab = ({tabName}) => {
     <div className="terminalWindow window" onMouseDown={() => bringToFront(tabName)} style={{ top: `${offset.top}px`, left: `${offset.left}px` , zIndex: zOrders[tabName] || 1}}>
       <div className="header" onMouseDown={handleDrag} style={{ cursor: "grab" }}>
         <p className="tabTitle">
-          <img src="/person.svg" />
+          <img src="/terminal.svg" />
           Terminal
         </p>
         <div className="tabTools">
