@@ -9,12 +9,13 @@ import Terminal from './apps/Terminal';
 
 const App = () => {
   const [time, setTime] = useState('');
-  const [presentDate,setPresentDate]= useState('');
+  const [presentDate, setPresentDate] = useState('');
+  const [showPc, setShowPc] = useState(false); 
 
   useEffect(() => {
     function updateClock() {
       const now = new Date();
-      const pDate= now.toDateString().slice(4);
+      const pDate = now.toDateString().slice(4);
       const hours = String(now.getHours()).padStart(2, '0');
       const minutes = String(now.getMinutes()).padStart(2, '0');
       const seconds = String(now.getSeconds()).padStart(2, '0');
@@ -25,7 +26,7 @@ const App = () => {
     updateClock();
     const interval = setInterval(updateClock, 1000);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -36,20 +37,26 @@ const App = () => {
           <Projects />
           <Resume />
           <Contact />
-          <Terminal/>
+          <Terminal />
         </div>
       </Tab>
-      <div className='footer'>
+      <div className="footer">
         <div className="taskbar">
-          <div className="taskIcon">
+          <div
+            className="taskIcon"
+            onClick={() => setShowPc(!showPc)} 
+          >
             <img className="taskIconImg" src="/pc.svg" alt="pc icon" />
           </div>
+          {showPc && ( 
+            <div className="pc-popup">Manoj's PC</div>
+          )}
         </div>
         <div id="clock">
-            <div className='time'>
-              <img src="/clock.svg" />
-              {time}
-            </div>
+          <div className="time">
+            <img src="/clock.svg" alt="clock icon" />
+            {time}
+          </div>
           <div>{presentDate}</div>
         </div>
       </div>
