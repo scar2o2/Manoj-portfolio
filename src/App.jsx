@@ -5,6 +5,7 @@ import Projects from './apps/Projects';
 import Resume from './apps/Resume';
 import About from './apps/About';
 import Tab from './apps/Tab';
+import Terminal from './apps/Terminal';
 
 const App = () => {
   const [time, setTime] = useState('');
@@ -35,6 +36,7 @@ const App = () => {
           <Projects />
           <Resume />
           <Contact />
+          <Terminal/>
         </div>
       </Tab>
       <div className='footer'>

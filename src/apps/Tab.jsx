@@ -3,6 +3,7 @@ import ResumeTab from '../tabs/ResumeTab';
 import AboutTab from '../tabs/AboutTab';
 import ContactTab from '../tabs/ContactTab';
 import ProjectsTab from '../tabs/ProjectsTab';
+import TerminalTab from '../tabs/TerminalTab';
 
 
 export const TabContext = createContext();
@@ -27,6 +28,7 @@ const Tab = ({ children }) => {
         {whtTab.includes('about') && <AboutTab tabName="about" />}
         {whtTab.includes('contact') && <ContactTab tabName="contact" />}
         {whtTab.includes('projects') && <ProjectsTab tabName="projects" />}
+        {whtTab.includes('terminal') && <TerminalTab tabName="terminal" />}
       </div>
     </TabContext.Provider>
   );

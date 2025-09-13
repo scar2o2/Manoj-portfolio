@@ -4,7 +4,7 @@ const AboutBody = () => {
   return (
     <div className='About'>
         <div className="upperSection">
-            <img src="/pfp.jpg"/>
+            <img src="/pfp1.jpg"/>
             <h2>Manoj Cherukuri</h2>
             <p>Full Stack Developer & Cloud Enthusiast</p>
         </div>
@@ -29,6 +29,7 @@ const AboutBody = () => {
             <div className='tSkill'>CSS3</div>
             <div className='tSkill'>JavaScript</div>
             <div className='tSkill'>Node.js</div>
+            <div className='tSkill'>TailwindCSS</div>
             <div className='tSkill'>MySQL</div>
             <div className='tSkill'>Docker</div>
             <div className='tSkill'>Git</div>

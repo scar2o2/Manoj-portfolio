@@ -208,6 +208,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: rgb(30 36 45);
 }
 .upperSec{
   display: flex;
@@ -737,4 +738,110 @@ body {
   margin: 2px 0 0;
   font-size: 14px;
   color: rgb(170, 170, 170);
+}
+
+
+
+
+
+/* TerminalBody Styling */
+
+.terminal-container {
+  height: 100%;
+  width: 100%;
+  background-color: #111827;
+  color: #10b981;
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
+  font-size: 14px;
+  padding: 16px;
+  overflow: hidden;
+  cursor: text;
+  box-sizing: border-box;
+}
+
+.terminal-content {
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #374151;
+}
+
+.terminal-line {
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+
+.terminal-command-line {
+  display: flex;
+  align-items: flex-start;
+}
+
+.terminal-prompt {
+  color: #3b82f6;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.terminal-command-text {
+  color: #ffffff;
+  word-break: break-all;
+}
+
+.terminal-output {
+  color: #10b981;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-left: 0;
+}
+
+.terminal-neofetch {
+  color: #10b981;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-left: 0;
+  text-shadow: 0 0 5px #043726ff, 0 0 10px #053928ff, 0 0 15px #04271bff, 0 0 20px #07422fff;
+  font-weight: bold;
+  filter: brightness(1.2);
+}
+
+.terminal-input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.terminal-input-prompt {
+  color: #3b82f6;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.terminal-input {
+  flex: 1;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Webkit scrollbar styling for better cross-browser support */
+.terminal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-content::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+.terminal-content::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+.terminal-content::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
 }

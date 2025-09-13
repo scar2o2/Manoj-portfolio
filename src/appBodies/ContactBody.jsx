@@ -31,7 +31,7 @@ const ContactBody = () => {
                 </div>
                 <div className="info">
                   <a href="https://www.linkedin.com/in/manoj-cherukuri-093615369/" target="_blank">
-                    <img src="src\assets\linkedin.svg"/>
+                    <img src="/linkedin.svg"/>
                     <div>
                         <h4>LinkedIn</h4>
                         <p>200+ Connections</p>
