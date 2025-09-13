@@ -8,7 +8,6 @@ const ResumeBody = () => {
   const handleDownload = () => {
     const element = resumeRef.current;
 
-    // Clone node to exclude download button
     const clone = element.cloneNode(true);
     const downloadBtn = clone.querySelector(".download");
     if (downloadBtn) downloadBtn.remove();
@@ -19,7 +18,7 @@ const ResumeBody = () => {
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: {
         scale: 2,
-        useCORS: true, // allow cross-origin images
+        useCORS: true,
       },
       jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
     };
@@ -49,7 +48,6 @@ const ResumeBody = () => {
           </div>
         </div>
 
-        {/* Button stays in UI but won't go to PDF */}
         <div className="download">
           <button className="download-btn" onClick={handleDownload}>
             <Download size={20} />
